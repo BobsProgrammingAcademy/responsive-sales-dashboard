@@ -84,9 +84,20 @@ body {
   cursor: pointer;
 }
 
+.sidebar-list-item > a {
+  text-decoration: none;
+  color: #9e9ea4;
+}
+
 .sidebar-responsive {
   display: inline !important;
   position: absolute;
+  /*
+    the z-index of the ApexCharts is 11
+    we want the z-index of the sidebar higher so that
+    the charts are not showing over the sidebar 
+    on small screens
+  */
   z-index: 12 !important;
 }
 
