@@ -4,6 +4,11 @@ This is a responsive sales dashboard built using **HTML 5**, **CSS 3**, and **Ja
 
 ![plot](https://github.com/BobsProgrammingAcademy/responsive-sales-dashboard/blob/master/images/large.png?raw=true)
 
+## Table of Contents 
+- [Prerequisites](#prerequisites)
+- [Running the application](#run-the-application)
+- [Copyright and License](#copyright-and-license)
+
 ## Prerequisites
 
 Install the following prerequisites:
