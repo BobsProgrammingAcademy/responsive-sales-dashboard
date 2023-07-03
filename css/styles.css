@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: #1d2634;
   color: #9e9ea4;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .material-icons-outlined {
@@ -17,11 +17,10 @@ body {
   grid-template-columns: 260px 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 3fr;
   grid-template-areas:
-    "sidebar header header header"
-    "sidebar main main main";
+    'sidebar header header header'
+    'sidebar main main main';
   height: 100vh;
 }
-
 
 /* ---------- HEADER ---------- */
 .header {
@@ -37,7 +36,6 @@ body {
 .menu-icon {
   display: none;
 }
-
 
 /* ---------- SIDEBAR ---------- */
 
@@ -100,7 +98,6 @@ body {
   */
   z-index: 12 !important;
 }
-
 
 /* ---------- MAIN ---------- */
 
@@ -180,7 +177,6 @@ body {
   justify-content: center;
 }
 
-
 /* ---------- MEDIA QUERIES ---------- */
 
 /* Medium <= 992px */
@@ -190,8 +186,8 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 3fr;
     grid-template-areas:
-      "header"
-      "main";
+      'header'
+      'main';
   }
 
   #sidebar {
@@ -207,7 +203,6 @@ body {
   }
 }
 
-
 /* Small <= 768px */
 
 @media screen and (max-width: 768px) {
@@ -222,7 +217,6 @@ body {
     margin-top: 30px;
   }
 }
-
 
 /* Extra Small <= 576px */
 
