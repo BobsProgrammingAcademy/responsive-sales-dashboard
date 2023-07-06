@@ -7,7 +7,6 @@ This is a responsive sales dashboard built using **HTML 5**, **CSS 3**, and **Ja
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Running the application](#run-the-application)
 - [Copyright and License](#copyright-and-license)
 
@@ -18,14 +17,6 @@ Install the following prerequisites:
 - [Visual Studio Code](https://code.visualstudio.com/download) with the **Live Server** extension.
 
 **Live Server** allows us to launch a local development server that enables a live reload of our project.
-
-## Installation
-
-From the **root** directory run:
-
-```bash
-npm install
-```
 
 ## Run the application
 
