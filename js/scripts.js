@@ -1,7 +1,7 @@
 // SIDEBAR TOGGLE
 
-var sidebarOpen = false;
-var sidebar = document.getElementById('sidebar');
+let sidebarOpen = false;
+const sidebar = document.getElementById('sidebar');
 
 function openSidebar() {
   if (!sidebarOpen) {
@@ -20,7 +20,7 @@ function closeSidebar() {
 // ---------- CHARTS ----------
 
 // BAR CHART
-var barChartOptions = {
+const barChartOptions = {
   series: [
     {
       data: [10, 8, 6, 4, 2],
@@ -124,14 +124,14 @@ var barChartOptions = {
   },
 };
 
-var barChart = new ApexCharts(
+const barChart = new ApexCharts(
   document.querySelector('#bar-chart'),
   barChartOptions
 );
 barChart.render();
 
 // AREA CHART
-var areaChartOptions = {
+const areaChartOptions = {
   series: [
     {
       name: 'Purchase Orders',
@@ -246,7 +246,7 @@ var areaChartOptions = {
   },
 };
 
-var areaChart = new ApexCharts(
+const areaChart = new ApexCharts(
   document.querySelector('#area-chart'),
   areaChartOptions
 );
